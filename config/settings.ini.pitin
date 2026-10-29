@@ -1,0 +1,86 @@
+# ==============================================================================
+# OpenCrossing Configuration: Pi Tin Handheld (Raspberry Pi Zero 2W + 2.8" SPI LCD)
+# ==============================================================================
+
+[Graphics]
+# 0 = windowed, 1 = fullscreen, 2 = borderless fullscreen
+fullscreen = 1
+
+# Native Pi Tin TFT LCD panel resolution
+display_width = 320
+display_height = 240
+
+# Vertical sync: 0 = off, 1 = on
+vsync = 0
+
+# Anti-aliasing samples: 0 = off, 2, 4, or 8 (recommend 0 on Pi Zero 2W)
+msaa = 0
+
+[Enhancements]
+# Preload HD textures: 0 = off, 1 = preload, 2 = preload + disk cache
+preload_textures = 0
+
+[Performance]
+# FPS target: 0=60fps, 1=50fps, 2=40fps, 3=30fps, 4=20fps, 5=unlimited, 6=dynamic
+# 3 = 30 FPS cap perfectly tuned to the 30Hz SPI LCD refresh rate, reducing heat & battery draw.
+fps_target = 3
+
+# Frameskip: 0 = off (render every frame), 1 = on (batch logic ticks under load)
+frameskip = 0
+
+# Render scale %: 100=native, 75, 50, 25 (lower = faster fillrate)
+render_scale = 100
+
+# Scale mode: 0=stretch to fill screen (native 320x240 matches 4:3 GameCube), 1=letterbox
+scale_mode = 0
+
+[Audio]
+master_volume = 100
+bgm_volume = 100
+sfx_volume = 100
+voice_volume = 100
+
+[Gameplay]
+# On-screen FPS counter: 0 = off, 1 = on
+show_fps = 0
+
+# Camera zoom shortcut (L + D-pad): 0 = off, 1 = on
+zoom_enabled = 1
+
+[Debug]
+# Verbose logging to terminal/log: 0 = off, 1 = on
+verbose = 0
+
+[Controls]
+# D-pad controls analog stick: 0 = off, 1 = on, 2 = auto
+# (Set to 2 so GPIOnext physical D-pad acts as the primary GameCube analog stick)
+dpad_as_stick = 2
+
+# Analog stick deadzones in percent (0-50)
+left_deadzone = 0
+right_deadzone = 0
+
+# Swap A↔B and X↔Y buttons: 0 = off, 1 = on
+swap_ab_xy = 0
+
+[LowSpec]
+# Frustum culling for props/actors outside view frustum: 0 = off, 1 = on
+frustum_cull = 1
+
+# Frustum culling margin in world units (higher = render earlier)
+frustum_cull_z_margin = 50
+
+# Max draw distance limit (0 = disable distance clamp)
+frustum_cull_max_distance = 0
+
+# Shadow rendering quality: 0 = all actors + trees, 1 = player only, 2 = off, 3 = player+NPC
+shadow_quality = 0
+
+# Acre background render: 0 = all adjacent acres, 1 = orthogonal cross only, 2 = current acre
+reduce_acre_draw = 1
+
+# Weather particle density: 0 = off, 1 = 25%, 2 = 50%, 3 = 75%, 4 = 100%
+particle_quality = 4
+
+# Disable Mr. Resetti lecture on ungraceful shutdown: 0 = off, 1 = on
+disable_resetti = 1

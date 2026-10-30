@@ -71,7 +71,7 @@ Captured directly from hardware running on the **Raspberry Pi Zero 2W** (VideoCo
 | Title Screen | Train Journey |
 | :---: | :---: |
 | ![Title Screen](screenshots/01_title_screen.png) | ![Train Journey](screenshots/02_train_carriage.png) |
-| *Iconic 3D title screen over rolling hills* | *Interior train carriage with Rover the cat* |
+| *Iconic 3D title screen over station cobblestone plaza* | *Interior train carriage with Rover the cat* |
 
 | Nook's Cranny (Town Gameplay) | Tom Nook's Shop |
 | :---: | :---: |

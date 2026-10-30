@@ -45,6 +45,14 @@ release/
 ├── patches/
 │   ├── 0001-opencrossing-rpi-zero2w-generic.patch  # Generic Raspberry Pi Zero 2W patch
 │   └── 0001-opencrossing-rpi-zero2w-pi-tin.patch  # Pi Tin handheld specialized patch
+├── screenshots/                        # Hardware gameplay captures
+│   ├── 01_title_screen.png
+│   ├── 02_train_carriage.png
+│   ├── 03_nooks_cranny.png
+│   ├── 04_tom_nook_shop.png
+│   ├── 05_town_acre_path.png
+│   ├── 06_station_master_porter.png
+│   └── 07_town_welcome_ursala.png
 └── scripts/
     ├── apply_patch.sh                  # Interactive helper script to clone and patch upstream
     └── launchers/                      # RetroPie Ports menu launcher scripts
@@ -53,6 +61,32 @@ release/
         ├── Animal Crossing (Record Input).sh   # Input macro recording session
         └── Animal Crossing (Playback).sh       # Deterministic benchmark replay
 ```
+
+---
+
+## Screenshots
+
+Captured directly from hardware running on the **Raspberry Pi Zero 2W** (VideoCore IV GPU):
+
+| Title Screen | Train Journey |
+| :---: | :---: |
+| ![Title Screen](screenshots/01_title_screen.png) | ![Train Journey](screenshots/02_train_carriage.png) |
+| *Iconic 3D title screen over rolling hills* | *Interior train carriage with Rover the cat* |
+
+| Nook's Cranny (Town Gameplay) | Tom Nook's Shop |
+| :---: | :---: |
+| ![Nook's Cranny](screenshots/03_nooks_cranny.png) | ![Tom Nook's Shop](screenshots/04_tom_nook_shop.png) |
+| *Outside Nook's Cranny with clock HUD & live 37 FPS* | *Talking to Tom Nook with dialogue bubble alpha* |
+
+| Town Acre Exploration | Station Master Porter |
+| :---: | :---: |
+| ![Town Acre Exploration](screenshots/05_town_acre_path.png) | ![Station Master Porter](screenshots/06_station_master_porter.png) |
+| *Outdoor cobblestone path, trees, flowers & house* | *Porter at train station gate with speech bubble* |
+
+| Welcome to Raspboro |
+| :---: |
+| ![Welcome to Raspboro](screenshots/07_town_welcome_ursala.png) |
+| *Character introduction sequence under the spotlight* |
 
 ---
 
